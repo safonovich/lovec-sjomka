@@ -1,0 +1,52 @@
+name: Lovec
+
+on:
+  schedule:
+    - cron: "*/10 5-20 * * *"   # каждые 10 мин, 5-20 UTC = 8-23 МСК (GitHub может задерживать на 3-10 мин)
+  workflow_dispatch:            # ручной запуск кнопкой
+
+concurrency:
+  group: lovec
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Установка зависимостей
+        run: pip install -r requirements.txt
+
+      - name: Кэш браузера Playwright
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ hashFiles('requirements.txt') }}
+
+      - name: Установка Chromium
+        run: python -m playwright install chromium --with-deps
+
+      - name: Запуск радара
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PROFI_COOKIES: ${{ secrets.PROFI_COOKIES }}
+        run: python lovec/run.py
+
+      - name: Сохранить состояние (seen/feedback)
+        run: |
+          git config user.name "lovec-bot"
+          git config user.email "lovec@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || (git commit -m "state: $(date -u +%F_%H:%M)" && git pull --rebase && git push)
