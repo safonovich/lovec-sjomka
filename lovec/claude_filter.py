@@ -46,8 +46,9 @@ def _examples(feedback: list[dict], limit: int) -> str:
 def score(listing: Listing, cfg: dict, feedback: list[dict], log) -> tuple[int, str]:
     c = cfg.get("claude", {})
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    passing = int(c.get("min_score", 6))   # fail-open: без Claude кандидат проходит
     if not c.get("enabled") or not key:
-        return 5, "без Claude (нет ключа) — по ключевым словам"
+        return passing, "без Claude (нет ключа) — по ключевым словам"
 
     price = f"{listing.price} ₽" if listing.price else "не указан"
     user = (_examples(feedback, c.get("max_feedback_examples", 40))
@@ -69,4 +70,4 @@ def score(listing: Listing, cfg: dict, feedback: list[dict], log) -> tuple[int, 
         return int(v.get("score", 0)), str(v.get("reason", ""))[:120]
     except Exception as e:
         log(f"claude: ошибка ({e}) — fail-open")
-        return 5, "Claude недоступен — пропущен по ключевым словам"
+        return passing, "Claude недоступен — пропущен по ключевым словам"
