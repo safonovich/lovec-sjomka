@@ -63,17 +63,32 @@ def fetch(cfg: dict, log) -> list[Listing]:
         ctx = browser.new_context(user_agent=UA, locale="ru-RU",
                                   timezone_id="Europe/Moscow")
         page = ctx.new_page()
-        try:
-            page.goto(FEED, wait_until="domcontentloaded", timeout=60000)
-            page.wait_for_timeout(3000)
-            r = ctx.request.post(
+
+        def warm() -> None:
+            try:
+                page.goto(FEED, wait_until="commit", timeout=30000)
+                page.wait_for_timeout(4000)
+            except Exception as e:
+                log(f"youdo: прогрев не удался ({type(e).__name__}) — пробуем API напрямую")
+
+        def post():
+            return ctx.request.post(
                 API, data=json.dumps(body),
                 headers={"content-type": "application/json",
-                         "x-requested-with": "XMLHttpRequest"},
+                         "x-requested-with": "XMLHttpRequest",
+                         "referer": FEED},
                 timeout=20000)
+
+        try:
+            r = post()                       # 1-я попытка: сразу в API
             txt = (r.text() or "").strip()
             if not txt.startswith("{"):
-                log("youdo: антибот не пустил (не-JSON ответ)")
+                log(f"youdo: API без прогрева не пустил (HTTP {r.status}) — греем сессию")
+                warm()
+                r = post()                   # 2-я попытка: после прогрева
+                txt = (r.text() or "").strip()
+            if not txt.startswith("{"):
+                log(f"youdo: антибот не пустил (HTTP {r.status}, ответ: {txt[:120]!r})")
                 return []
             items = r.json().get("ResultObject", {}).get("Items", [])
         except Exception as e:
