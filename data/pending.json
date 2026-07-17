@@ -19,5 +19,75 @@
   "price": 60000,
   "url": "https://youdo.com/t14973520",
   "ts": 1784281193.4113634
+ },
+ "fcbd176192cd": {
+  "platform": "youdo",
+  "title": "🎥 Ищем UGC-креатора в команду Онлайн школы юриста!",
+  "price": 30000,
+  "url": "https://youdo.com/t14976314",
+  "ts": 1784283809.3623383
+ },
+ "2dfc1478d827": {
+  "platform": "profi",
+  "title": "Видеомонтаж",
+  "price": null,
+  "url": "https://profi.ru/backoffice/n.php?o=91689977",
+  "ts": 1784283809.6871111
+ },
+ "f2095586cc72": {
+  "platform": "profi",
+  "title": "Монтаж видео",
+  "price": null,
+  "url": "https://profi.ru/backoffice/n.php?o=91689885",
+  "ts": 1784283810.1178253
+ },
+ "72d05e2c968d": {
+  "platform": "profi",
+  "title": "Фотограф",
+  "price": null,
+  "url": "https://profi.ru/backoffice/n.php?o=91633441",
+  "ts": 1784283810.4384387
+ },
+ "0c33324cea83": {
+  "platform": "profi",
+  "title": "Создание видеоролика ютуб",
+  "price": null,
+  "url": "https://profi.ru/backoffice/n.php?o=91590100",
+  "ts": 1784283810.773413
+ },
+ "ba9565b50ae2": {
+  "platform": "profi",
+  "title": "Монтаж видео",
+  "price": 30000,
+  "url": "https://profi.ru/backoffice/n.php?o=91685846",
+  "ts": 1784283811.0928183
+ },
+ "eb5bc5e2757a": {
+  "platform": "profi",
+  "title": "Монтаж рилс",
+  "price": 15000,
+  "url": "https://profi.ru/backoffice/n.php?o=91654805",
+  "ts": 1784283811.413069
+ },
+ "f04135801b22": {
+  "platform": "profi",
+  "title": "Видеомонтаж",
+  "price": 40000,
+  "url": "https://profi.ru/backoffice/n.php?o=91661389",
+  "ts": 1784283811.731485
+ },
+ "5d49db9662d6": {
+  "platform": "profi",
+  "title": "Видеомонтаж",
+  "price": null,
+  "url": "https://profi.ru/backoffice/n.php?o=91665076",
+  "ts": 1784283812.048211
+ },
+ "6773768ea09f": {
+  "platform": "profi",
+  "title": "Склейка видео",
+  "price": null,
+  "url": "https://profi.ru/backoffice/n.php?o=91451366",
+  "ts": 1784283812.3935244
  }
 }
