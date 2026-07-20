@@ -40,6 +40,7 @@ jobs:
         env:
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           PROFI_COOKIES: ${{ secrets.PROFI_COOKIES }}
         run: python lovec/run.py

@@ -11,7 +11,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from lovec import claude_filter, feedback, matcher, notify, store
+from lovec import feedback, matcher, notify, scorer, store
 from lovec.models import Match
 from lovec.sources import profi, youdo
 
@@ -69,11 +69,11 @@ def main() -> None:
         candidates = candidates[:cfg["filter"].get("first_run_max", 8)]
         log(f"первый запуск — шлём максимум {len(candidates)}")
 
-    # 4. Claude решает + шлём
-    min_score = cfg.get("claude", {}).get("min_score", 6)
+    # 4. Нейросеть решает + шлём
+    min_score = cfg.get("llm", {}).get("min_score", 6)
     sent = 0
     for l in candidates:
-        sc, reason = claude_filter.score(l, cfg, fb, log)
+        sc, reason = scorer.score(l, cfg, fb, log)
         if sc < min_score:
             log(f"skip ({sc}/10): {l.title[:60]} — {reason}")
             continue
