@@ -61,5 +61,19 @@
   "price": 50000,
   "url": "https://youdo.com/t15028966",
   "ts": 1785510530.8694746
+ },
+ "4dbb96fde757": {
+  "platform": "youdo",
+  "title": "От фотографировать автозапчасти",
+  "price": 22000,
+  "url": "https://youdo.com/t15049098",
+  "ts": 1786011615.00742
+ },
+ "d833b41d72b6": {
+  "platform": "youdo",
+  "title": "Рилс мейкер",
+  "price": 30000,
+  "url": "https://youdo.com/t15049040",
+  "ts": 1786011621.0379083
  }
 }
