@@ -40,5 +40,12 @@
   "price": 22000,
   "url": "https://youdo.com/t15057326",
   "ts": 1786177255.4213893
+ },
+ "d30c6e77e887": {
+  "platform": "youdo",
+  "title": "Сьемка рилс",
+  "price": 40000,
+  "url": "https://youdo.com/t15059323",
+  "ts": 1786204308.9172478
  }
 }
