@@ -61,5 +61,12 @@
   "price": 20000,
   "url": "https://youdo.com/t15072507",
   "ts": 1786547333.2420182
+ },
+ "0c7b1e431667": {
+  "platform": "youdo",
+  "title": "Модель ню",
+  "price": 50000,
+  "url": "https://youdo.com/t15072660",
+  "ts": 1786550968.2529104
  }
 }
