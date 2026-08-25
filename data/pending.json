@@ -1,11 +1,4 @@
 {
- "9dd865a88f88": {
-  "platform": "youdo",
-  "title": "Съемка reels",
-  "price": 35000,
-  "url": "https://youdo.com/t15066614",
-  "ts": 1786456668.1434455
- },
  "6f2dc796008c": {
   "platform": "youdo",
   "title": "Ищем Фотографа, ню сессия девушки",
@@ -243,5 +236,12 @@
   "price": 15000,
   "url": "https://youdo.com/t15121165",
   "ts": 1787663397.750314
+ },
+ "5b30e0eb3f00": {
+  "platform": "youdo",
+  "title": "Нарезчик вирусного контента / Reels & Shorts",
+  "price": 30000,
+  "url": "https://youdo.com/t15122078",
+  "ts": 1787666720.4648511
  }
 }
