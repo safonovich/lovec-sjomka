@@ -1,32 +1,4 @@
 {
- "c06cac33e001": {
-  "platform": "youdo",
-  "title": "Срочная Печать фотографий 500шт",
-  "price": 30000,
-  "url": "https://youdo.com/t15087152",
-  "ts": 1786913508.313731
- },
- "653d5340d3fd": {
-  "platform": "youdo",
-  "title": "Нужен фотограф авто тематика",
-  "price": 22000,
-  "url": "https://youdo.com/t15087376",
-  "ts": 1786945151.923454
- },
- "eaa7b308ca35": {
-  "platform": "youdo",
-  "title": "Продюсер в фотопродакшн/ координатор съемок",
-  "price": 60000,
-  "url": "https://youdo.com/t15087186",
-  "ts": 1786945153.073972
- },
- "5ed8d39a9dce": {
-  "platform": "youdo",
-  "title": "Нужен интерьерный фотограф",
-  "price": 20000,
-  "url": "https://youdo.com/t15087919",
-  "ts": 1786963008.9030516
- },
  "869ddbce7f75": {
   "platform": "youdo",
   "title": "Нужен фотограф",
@@ -201,5 +173,12 @@
   "price": 20000,
   "url": "https://youdo.com/t15145424",
   "ts": 1788018342.8815062
+ },
+ "32d3ac4622e1": {
+  "platform": "youdo",
+  "title": "Рилсмейкер",
+  "price": 30000,
+  "url": "https://youdo.com/t15150481",
+  "ts": 1788175735.0058815
  }
 }
