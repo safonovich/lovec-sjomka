@@ -75,5 +75,19 @@
   "price": 22000,
   "url": "https://youdo.com/t15302945",
   "ts": 1791630161.6394663
+ },
+ "2e756e4600f5": {
+  "platform": "youdo",
+  "title": "Декоратор на интерьерную сьемку",
+  "price": 15000,
+  "url": "https://youdo.com/t15304102",
+  "ts": 1791648828.1164045
+ },
+ "59bff56dd4ff": {
+  "platform": "youdo",
+  "title": "Нужен фотограф",
+  "price": 45000,
+  "url": "https://youdo.com/t15304083",
+  "ts": 1791648829.706995
  }
 }
