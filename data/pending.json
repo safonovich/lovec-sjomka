@@ -208,5 +208,19 @@
   "price": 30000,
   "url": "https://youdo.com/t15346138",
   "ts": 1792681792.04728
+ },
+ "cc85e50f48c6": {
+  "platform": "youdo",
+  "title": "Рилсмейкер",
+  "price": 40000,
+  "url": "https://youdo.com/t15348680",
+  "ts": 1792765947.9862285
+ },
+ "6f26143c4836": {
+  "platform": "youdo",
+  "title": "Рилсмейкер видеограф",
+  "price": 45000,
+  "url": "https://youdo.com/t15348024",
+  "ts": 1792765949.0921314
  }
 }
