@@ -1,11 +1,4 @@
 {
- "5f558c5da1ba": {
-  "platform": "youdo",
-  "title": "Контентмейкер рилсмейкер",
-  "price": 30000,
-  "url": "https://youdo.com/t15310339",
-  "ts": 1791894929.2897325
- },
  "2b2a3db035ec": {
   "platform": "youdo",
   "title": "Нужен рилсмейкер",
@@ -187,5 +180,12 @@
   "price": 40000,
   "url": "https://youdo.com/t15352276",
   "ts": 1792848687.5121121
+ },
+ "d1b68d430f5f": {
+  "platform": "youdo",
+  "title": "Фотограф на детский день рождения",
+  "price": 15000,
+  "url": "https://youdo.com/t15359946",
+  "ts": 1793116532.734979
  }
 }
