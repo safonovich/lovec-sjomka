@@ -1,11 +1,4 @@
 {
- "2b2a3db035ec": {
-  "platform": "youdo",
-  "title": "Нужен рилсмейкер",
-  "price": 35000,
-  "url": "https://youdo.com/t15312671",
-  "ts": 1791919936.0966265
- },
  "37f598489b3c": {
   "platform": "youdo",
   "title": "Сьемка офисных пространств",
@@ -187,5 +180,12 @@
   "price": 15000,
   "url": "https://youdo.com/t15359946",
   "ts": 1793116532.734979
+ },
+ "b607727aa0dc": {
+  "platform": "youdo",
+  "title": "Монтаж видео",
+  "price": 15000,
+  "url": "https://youdo.com/t15360605",
+  "ts": 1793133111.2149627
  }
 }
