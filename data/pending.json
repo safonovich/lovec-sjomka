@@ -215,5 +215,19 @@
   "price": 50000,
   "url": "https://youdo.com/t15366106",
   "ts": 1793295027.4095838
+ },
+ "b0c560aeff5b": {
+  "platform": "youdo",
+  "title": "Монтаж видео",
+  "price": 15000,
+  "url": "https://youdo.com/t15369338",
+  "ts": 1793358902.1656952
+ },
+ "dde124119998": {
+  "platform": "youdo",
+  "title": "Обучение видеомонтажу",
+  "price": 22000,
+  "url": "https://youdo.com/t15368550",
+  "ts": 1793358905.3156192
  }
 }
