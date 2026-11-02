@@ -1,11 +1,4 @@
 {
- "064e1cbb1bb5": {
-  "platform": "youdo",
-  "title": "Генерация видеороликов",
-  "price": 100000,
-  "url": "https://youdo.com/t15329814",
-  "ts": 1792350085.7501569
- },
  "71d6fa2a77cb": {
   "platform": "youdo",
   "title": "Монтаж видеоролика",
@@ -222,5 +215,12 @@
   "price": 20000,
   "url": "https://youdo.com/t15376753",
   "ts": 1793533508.9452581
+ },
+ "194862b3be7f": {
+  "platform": "youdo",
+  "title": "Актёр озвучивания",
+  "price": 16000,
+  "url": "https://youdo.com/t15377244",
+  "ts": 1793625353.6707158
  }
 }
