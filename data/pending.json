@@ -1,18 +1,4 @@
 {
- "741922226c2d": {
-  "platform": "youdo",
-  "title": "Съемка двухдневного семинара",
-  "price": 35000,
-  "url": "https://youdo.com/t15341150",
-  "ts": 1792576527.2787178
- },
- "ffa23d33a4fc": {
-  "platform": "youdo",
-  "title": "Нужен помощник фотографа",
-  "price": 90000,
-  "url": "https://youdo.com/t15340905",
-  "ts": 1792576528.6441424
- },
  "ea1750c868b3": {
   "platform": "youdo",
   "title": "Нужен фотограф для съемки объекта недвижимости",
@@ -236,5 +222,47 @@
   "price": 50000,
   "url": "https://youdo.com/t15382050",
   "ts": 1793735502.8169622
+ },
+ "2ee544e5f0da": {
+  "platform": "youdo",
+  "title": "Монтаж и продвижение рилсов в Инст",
+  "price": 15000,
+  "url": "https://youdo.com/t15385520",
+  "ts": 1793796691.7712104
+ },
+ "26c5c564f7f7": {
+  "platform": "youdo",
+  "title": "Нужен фотограф",
+  "price": null,
+  "url": "https://youdo.com/t15385973",
+  "ts": 1793796693.0115852
+ },
+ "c6e906eda084": {
+  "platform": "youdo",
+  "title": "Рилсмейкер удалённо (монтаж и продвижение)",
+  "price": 15000,
+  "url": "https://youdo.com/t15384790",
+  "ts": 1793796694.334307
+ },
+ "f416e66e2542": {
+  "platform": "youdo",
+  "title": "Заукорежисер",
+  "price": 50000,
+  "url": "https://youdo.com/t15384677",
+  "ts": 1793796695.301425
+ },
+ "5d6e9515e14a": {
+  "platform": "youdo",
+  "title": "Видео сьемка",
+  "price": 30000,
+  "url": "https://youdo.com/t15384456",
+  "ts": 1793796696.6133397
+ },
+ "e8ccc2bfae1f": {
+  "platform": "youdo",
+  "title": "Снять и смонтировать видеоролик",
+  "price": 20000,
+  "url": "https://youdo.com/t15383598",
+  "ts": 1793796697.5276258
  }
 }
