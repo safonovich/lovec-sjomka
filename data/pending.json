@@ -1,11 +1,4 @@
 {
- "15d1c43749ac": {
-  "platform": "youdo",
-  "title": "Монтаж reels",
-  "price": 20000,
-  "url": "https://youdo.com/t15344210",
-  "ts": 1792663009.568495
- },
  "f15d627e6627": {
   "platform": "youdo",
   "title": "Фотограф на мероприятие на 2 дня",
@@ -243,5 +236,19 @@
   "price": 20000,
   "url": "https://youdo.com/t15383598",
   "ts": 1793796697.5276258
+ },
+ "aa4f88c65f49": {
+  "platform": "youdo",
+  "title": "Ищем TikTok / Reels-креатора для шаурмичной «Облачко...",
+  "price": 18000,
+  "url": "https://youdo.com/t15387459",
+  "ts": 1793883576.8458765
+ },
+ "8a07d9e19a09": {
+  "platform": "youdo",
+  "title": "Монтаж видео reels",
+  "price": 40000,
+  "url": "https://youdo.com/t15387237",
+  "ts": 1793883578.108209
  }
 }
