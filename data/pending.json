@@ -1,11 +1,4 @@
 {
- "f15d627e6627": {
-  "platform": "youdo",
-  "title": "Фотограф на мероприятие на 2 дня",
-  "price": 30000,
-  "url": "https://youdo.com/t15346138",
-  "ts": 1792681792.04728
- },
  "cc85e50f48c6": {
   "platform": "youdo",
   "title": "Рилсмейкер",
@@ -250,5 +243,12 @@
   "price": 40000,
   "url": "https://youdo.com/t15387237",
   "ts": 1793883578.108209
+ },
+ "16dee93aa4c4": {
+  "platform": "youdo",
+  "title": "Монтаж видео с конференции",
+  "price": 40000,
+  "url": "https://youdo.com/t15389416",
+  "ts": 1793911468.8444653
  }
 }
