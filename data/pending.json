@@ -1,18 +1,4 @@
 {
- "d1b68d430f5f": {
-  "platform": "youdo",
-  "title": "Фотограф на детский день рождения",
-  "price": 15000,
-  "url": "https://youdo.com/t15359946",
-  "ts": 1793116532.734979
- },
- "b607727aa0dc": {
-  "platform": "youdo",
-  "title": "Монтаж видео",
-  "price": 15000,
-  "url": "https://youdo.com/t15360605",
-  "ts": 1793133111.2149627
- },
  "b3d2205d4a49": {
   "platform": "youdo",
   "title": "Отобрать и отретушировать фотографии",
@@ -313,5 +299,33 @@
   "price": 22000,
   "url": "https://youdo.com/t15404841",
   "ts": 1794231783.8599246
+ },
+ "3eaac274fa95": {
+  "platform": "youdo",
+  "title": "Монтирование видео",
+  "price": 20000,
+  "url": "https://youdo.com/t15408443",
+  "ts": 1794342839.0228584
+ },
+ "2957976e4b9e": {
+  "platform": "youdo",
+  "title": "Нужен видеооператор",
+  "price": 15000,
+  "url": "https://youdo.com/t15407707",
+  "ts": 1794342840.327012
+ },
+ "017342a764f8": {
+  "platform": "youdo",
+  "title": "Видеосьемка монтаж курса",
+  "price": 30000,
+  "url": "https://youdo.com/t15407627",
+  "ts": 1794342841.6874416
+ },
+ "ecf8d104b875": {
+  "platform": "youdo",
+  "title": "Съемка видео на iPhone + быстрый ИИ-монтаж (склад,...",
+  "price": 40000,
+  "url": "https://youdo.com/t15406949",
+  "ts": 1794342842.5899122
  }
 }
