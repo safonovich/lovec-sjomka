@@ -1,74 +1,4 @@
 {
- "f92d12e3a048": {
-  "platform": "youdo",
-  "title": "Настроить световое оборудование и звуковое оборудование...",
-  "price": 50000,
-  "url": "https://youdo.com/t15383438",
-  "ts": 1793735498.3028483
- },
- "3faf76a95a15": {
-  "platform": "youdo",
-  "title": "Снять и смонтировать видеоролик",
-  "price": 50000,
-  "url": "https://youdo.com/t15382563",
-  "ts": 1793735499.621703
- },
- "0314919476bf": {
-  "platform": "youdo",
-  "title": "Девушка модельной внешности",
-  "price": 150000,
-  "url": "https://youdo.com/t15382317",
-  "ts": 1793735501.3462222
- },
- "18ec6c629faa": {
-  "platform": "youdo",
-  "title": "Снять промо-ролик компании",
-  "price": 50000,
-  "url": "https://youdo.com/t15382050",
-  "ts": 1793735502.8169622
- },
- "2ee544e5f0da": {
-  "platform": "youdo",
-  "title": "Монтаж и продвижение рилсов в Инст",
-  "price": 15000,
-  "url": "https://youdo.com/t15385520",
-  "ts": 1793796691.7712104
- },
- "26c5c564f7f7": {
-  "platform": "youdo",
-  "title": "Нужен фотограф",
-  "price": null,
-  "url": "https://youdo.com/t15385973",
-  "ts": 1793796693.0115852
- },
- "c6e906eda084": {
-  "platform": "youdo",
-  "title": "Рилсмейкер удалённо (монтаж и продвижение)",
-  "price": 15000,
-  "url": "https://youdo.com/t15384790",
-  "ts": 1793796694.334307
- },
- "f416e66e2542": {
-  "platform": "youdo",
-  "title": "Заукорежисер",
-  "price": 50000,
-  "url": "https://youdo.com/t15384677",
-  "ts": 1793796695.301425
- },
- "5d6e9515e14a": {
-  "platform": "youdo",
-  "title": "Видео сьемка",
-  "price": 30000,
-  "url": "https://youdo.com/t15384456",
-  "ts": 1793796696.6133397
- },
- "e8ccc2bfae1f": {
-  "platform": "youdo",
-  "title": "Снять и смонтировать видеоролик",
-  "price": 20000,
-  "url": "https://youdo.com/t15383598",
-  "ts": 1793796697.5276258
- },
  "aa4f88c65f49": {
   "platform": "youdo",
   "title": "Ищем TikTok / Reels-креатора для шаурмичной «Облачко...",
@@ -313,5 +243,33 @@
   "price": 30000,
   "url": "https://youdo.com/t15427499",
   "ts": 1794924772.4149282
+ },
+ "1f5b0ae59194": {
+  "platform": "youdo",
+  "title": "Монтаж видео помощью ИИ",
+  "price": 30000,
+  "url": "https://youdo.com/t15433882",
+  "ts": 1795009451.8171592
+ },
+ "764c17d30213": {
+  "platform": "youdo",
+  "title": "Семейный фотограф",
+  "price": 22000,
+  "url": "https://youdo.com/t15433361",
+  "ts": 1795009453.1283894
+ },
+ "0abfb9fb06d3": {
+  "platform": "youdo",
+  "title": "Монтаж видео",
+  "price": 35000,
+  "url": "https://youdo.com/t15432794",
+  "ts": 1795009454.4297895
+ },
+ "160bf96ac7d8": {
+  "platform": "youdo",
+  "title": "Нужен фотограф на производство",
+  "price": 15000,
+  "url": "https://youdo.com/t15431135",
+  "ts": 1795009455.60855
  }
 }
