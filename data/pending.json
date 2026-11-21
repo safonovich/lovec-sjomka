@@ -1,39 +1,4 @@
 {
- "4efe518e46f9": {
-  "platform": "youdo",
-  "title": "Ищем режиссера монтажа для документального фильма",
-  "price": 70000,
-  "url": "https://youdo.com/t15393610",
-  "ts": 1793994261.7115035
- },
- "3f935dda432b": {
-  "platform": "youdo",
-  "title": "Создание 3 минутного AI мультфильма",
-  "price": 15000,
-  "url": "https://youdo.com/t15393527",
-  "ts": 1793994263.1811476
- },
- "b5dff48ebf43": {
-  "platform": "youdo",
-  "title": "Нужен видеограф",
-  "price": 30000,
-  "url": "https://youdo.com/t15397414",
-  "ts": 1794051356.2930691
- },
- "7c95e14a85a7": {
-  "platform": "youdo",
-  "title": "Съемка рилс, монтаж, стратегия контент маркетинга",
-  "price": 50000,
-  "url": "https://youdo.com/t15394545",
-  "ts": 1794051357.3099465
- },
- "0525e173b102": {
-  "platform": "youdo",
-  "title": "Нужен фотограф",
-  "price": 25000,
-  "url": "https://youdo.com/t15394555",
-  "ts": 1794051358.3039796
- },
  "87f953584a26": {
   "platform": "youdo",
   "title": "Ролик с ИИ-моделью",
@@ -299,5 +264,33 @@
   "price": 20000,
   "url": "https://youdo.com/t15437449",
   "ts": 1795182870.2241497
+ },
+ "a72c6fb54773": {
+  "platform": "youdo",
+  "title": "Нарезка рилсов удалённо",
+  "price": 50000,
+  "url": "https://youdo.com/t15444505",
+  "ts": 1795267087.3677216
+ },
+ "d4e9d4fae2ee": {
+  "platform": "youdo",
+  "title": "Фотограф",
+  "price": 22000,
+  "url": "https://youdo.com/t15442222",
+  "ts": 1795267088.1455226
+ },
+ "986467d14cb2": {
+  "platform": "youdo",
+  "title": "Ищу рилсмейкера",
+  "price": 25000,
+  "url": "https://youdo.com/t15442206",
+  "ts": 1795267089.3171906
+ },
+ "62ab5705a277": {
+  "platform": "youdo",
+  "title": "Необходим художник/аниматор Doodles на штатную позицию...",
+  "price": 20000,
+  "url": "https://youdo.com/t15441565",
+  "ts": 1795267090.0988247
  }
 }
