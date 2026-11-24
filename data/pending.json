@@ -250,5 +250,26 @@
   "price": 30000,
   "url": "https://youdo.com/t15449161",
   "ts": 1795448907.5522144
+ },
+ "3478654a79b7": {
+  "platform": "youdo",
+  "title": "Монтаж видео",
+  "price": 20000,
+  "url": "https://youdo.com/t15450683",
+  "ts": 1795534730.9987266
+ },
+ "f5a942ac4712": {
+  "platform": "youdo",
+  "title": "Создание видео с помощью искусственного интеллекта",
+  "price": 20000,
+  "url": "https://youdo.com/t15450596",
+  "ts": 1795534732.2141173
+ },
+ "f85a13fb9ccb": {
+  "platform": "youdo",
+  "title": "Смонтировать 5 Reels",
+  "price": null,
+  "url": "https://youdo.com/t15449915",
+  "ts": 1795534733.5620148
  }
 }
