@@ -1,46 +1,4 @@
 {
- "3eaac274fa95": {
-  "platform": "youdo",
-  "title": "Монтирование видео",
-  "price": 20000,
-  "url": "https://youdo.com/t15408443",
-  "ts": 1794342839.0228584
- },
- "2957976e4b9e": {
-  "platform": "youdo",
-  "title": "Нужен видеооператор",
-  "price": 15000,
-  "url": "https://youdo.com/t15407707",
-  "ts": 1794342840.327012
- },
- "017342a764f8": {
-  "platform": "youdo",
-  "title": "Видеосьемка монтаж курса",
-  "price": 30000,
-  "url": "https://youdo.com/t15407627",
-  "ts": 1794342841.6874416
- },
- "ecf8d104b875": {
-  "platform": "youdo",
-  "title": "Съемка видео на iPhone + быстрый ИИ-монтаж (склад,...",
-  "price": 40000,
-  "url": "https://youdo.com/t15406949",
-  "ts": 1794342842.5899122
- },
- "8e0aea7e9479": {
-  "platform": "youdo",
-  "title": "Требуется оператор для съемки интервью",
-  "price": 50000,
-  "url": "https://youdo.com/t15412040",
-  "ts": 1794400308.2473369
- },
- "4243cd91d9c0": {
-  "platform": "youdo",
-  "title": "Фотограф на строительные объекты",
-  "price": 15000,
-  "url": "https://youdo.com/t15411266",
-  "ts": 1794400309.6097775
- },
  "9918bca2f3c4": {
   "platform": "youdo",
   "title": "Креативный Reels-продюсер / контент-мейкер для личного...",
@@ -271,5 +229,33 @@
   "price": null,
   "url": "https://youdo.com/t15449915",
   "ts": 1795534733.5620148
+ },
+ "a4e48c22d9e8": {
+  "platform": "youdo",
+  "title": "Фигуры медведей как на фото",
+  "price": 50000,
+  "url": "https://youdo.com/t15455497",
+  "ts": 1795620190.589635
+ },
+ "46fdbfc79057": {
+  "platform": "youdo",
+  "title": "Фотограф-видеограф на инвестиционное мероприятие |...",
+  "price": 15000,
+  "url": "https://youdo.com/t15454939",
+  "ts": 1795620192.1462622
+ },
+ "fb81b256dedc": {
+  "platform": "youdo",
+  "title": "Услуги фотографа",
+  "price": 15000,
+  "url": "https://youdo.com/t15454814",
+  "ts": 1795620193.5591545
+ },
+ "68c598f0e7ee": {
+  "platform": "youdo",
+  "title": "Фотосъемка дома",
+  "price": 15000,
+  "url": "https://youdo.com/t15453777",
+  "ts": 1795620195.0496504
  }
 }
